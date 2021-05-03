@@ -3,6 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@starterkit/auth-client": "0.1.0",
+    "@starterkit/config": "0.1.0",
+    "@starterkit/database-client": "0.1.0",
+    "@starterkit/home-client": "0.1.0",
+    "@starterkit/router-client": "0.1.0",
+    "@starterkit/utils-client": "0.1.0",
     "@testing-library/jest-dom": "5.11.4",
     "@testing-library/react": "11.1.0",
     "@testing-library/user-event": "12.1.10",
