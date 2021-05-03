@@ -1,11 +1,12 @@
-const express = require('express')
-const app = express()
-const port = 8080
+import express from "express";
 
-app.get('/', (req, res) => {
-  res.send('Hello Woxsaxxarld!')
-})
+const app = express();
+const port = process.env.PORT;
+
+app.get("/", (req, res) => {
+  res.send("Hello Woxsaxxarld!");
+});
 
 app.listen(port, () => {
-  console.log(`server app listening at ${port}`)
-})
+  console.log(`server app listening at ${port}`);
+});
